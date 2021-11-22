@@ -1,0 +1,11 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "description": "Final Project containing homepage.html, about.html, front-end and back-end js etc",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Askarov Aidar, Shaymerdenov Dias, Kabykenova Amina, Atygayeva Assem",
+  "license": "ISC"
+}

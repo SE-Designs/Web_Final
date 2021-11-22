@@ -1,0 +1,297 @@
+/* HOME */
+
+* {
+	font-family: 'Montserrat';
+}
+
+header {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	font-weight: 800;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: 32px;
+}
+
+h3 {
+	font-weight: 800;
+}
+
+h5 {
+	font-weight: 500;
+}
+
+footer {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
+	height: 40px;
+}
+
+.select-area {
+	width: 360px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.selection {
+	box-shadow: 0px 0px 0px 1px #dee2e6;
+	border-radius: 32px;
+	height: 320px;
+}
+
+.textarea-players {
+	box-shadow: 0px 0px 0px 1px #dee2e6;
+	border: 0px solid;
+	width: 360px;
+	height: 32px;
+	min-height: 32px;
+	max-height: 80px;
+	outline: none;
+	border-radius: 8px;
+	padding-left: 8px;
+}
+
+.textarea-players:focus {
+	box-shadow: 0px 0px 0px 1px black;
+}
+
+.input-goals {
+	box-shadow: 0px 0px 0px 1px #dee2e6;
+	border: 0px solid;
+	width: 360px;
+	height: 32px;
+	min-height: 32px;
+	max-height: 32px;
+	outline: none;
+	border-radius: 8px;
+	padding-left: 8px;
+}
+
+.input-goals:focus {
+	box-shadow: 0px 0px 0px 1px black;
+}
+
+.container-last {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.results-btn {
+	border-radius: 32px;
+	padding: 6px 32px;
+	background-color: white;
+	box-shadow: 0px 0px 0px 1px #dee2e6;
+	border: 0;
+}
+
+.results-btn:hover {
+	font-weight: 800;
+}
+
+.results-btn:focus {
+	color: white;
+	background-color: black;
+	box-shadow: 0px 0px 0px 1px black;
+}
+
+input::-webkit-inner-spin-button {
+	margin-right: 4px;
+}
+
+@media screen and (max-width: 1399px) {
+	.select-area {
+		width: 300px;
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.textarea-players {
+		width: 300px;
+	}
+
+	.input-goals {
+		width: 300px;
+	}
+}
+@media screen and (max-width: 1199px) {
+	.select-area {
+		width: 400px;
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.textarea-players {
+		width: 400px;
+	}
+
+	.input-goals {
+		width: 400px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.select-area {
+		width: 280px;
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.textarea-players {
+		width: 280px;
+	}
+
+	.input-goals {
+		width: 280px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.select-area {
+		width: 190px;
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.textarea-players {
+		width: 190px;
+	}
+
+	.input-goals {
+		width: 190px;
+	}
+}
+
+
+/* ABOUT */
+
+
+header {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	font-family: 'Montserrat';
+	font-size: 32px;
+}
+
+footer {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
+	height: 40px;
+}
+
+* {
+	font-family: 'Montserrat';
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	font-weight: 800;
+}
+
+section.our-team {
+    padding: 70px 0px;
+    background-color: white;
+    text-align: center;
+    color: #fff;
+}
+
+.our-team .member {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.4s;
+    border-radius: 100%;
+    border: 6px solid #ffffff;
+}
+
+.our-team h2 {
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+}
+
+.our-team p {
+    color: black;
+    width: 70%;
+    margin: 10px auto 10px;
+}
+
+.our-team .member:hover {
+    box-shadow: 5px 10px 0px 0px black;
+}
+
+.our-team .member .member-info {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.our-team .member .member-detail {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+}
+
+.our-team .member .social {
+    position: absolute;
+    left: 0;
+    bottom: -38px;
+    right: 0;
+    height: 48px;
+    transition: bottom ease-in-out 0.4s;
+    text-align: center;
+    opacity: 100;
+}
+.our-team .member .social a {
+    margin: 0 10px;
+    display: inline-block;
+    color: #fff;
+}
+.our-team .member .social a:hover {
+    color: #fff;
+}
+.our-team .member .social i {
+    font-size: 18px;
+    margin: 0 2px;
+}
+
+.our-team .member:hover .member-info {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.57) 20%, rgba(121, 85, 72, 0.09) 100%);
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.our-team .member:hover .member-detail {
+    bottom: 80px;
+}
+
+.our-team .member:hover .social {
+    bottom: 10px;
+}
+
+
+
